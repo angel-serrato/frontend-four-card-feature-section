@@ -1,0 +1,54 @@
+@import 'normalize.css';
+
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --white: hsl(0, 0%, 100%);
+  --grey-500: hsl(234, 12%, 34%);
+  --grey-400: hsl(212, 6%, 44%);
+  /* @link https://utopia.fyi/type/calculator?c=375,14,1.2,1440,15,1.25,6,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+  --step-0: clamp(0.875rem, 0.853rem + 0.0939vw, 0.9375rem);
+  --step-1: clamp(1.05rem, 1.0071rem + 0.1831vw, 1.1719rem);
+  --step-2: clamp(1.26rem, 1.1879rem + 0.3077vw, 1.4648rem);
+  --step-3: clamp(1.512rem, 1.3997rem + 0.4793vw, 1.8311rem);
+  --step-4: clamp(1.8144rem, 1.6474rem + 0.7127vw, 2.2888rem);
+  --step-5: clamp(2.1773rem, 1.9365rem + 1.0272vw, 2.861rem);
+  --step-6: clamp(2.6127rem, 2.2735rem + 1.4476vw, 3.5763rem);
+  /* Tipografía fluida semántica */
+  --text-xs: clamp(0.875rem, 0.853rem + 0.0939vw, 0.9375rem);
+  /* antes step-0 */
+  --text-sm: clamp(1.05rem, 1.0071rem + 0.1831vw, 1.1719rem);
+  /* step-1 */
+  --text-base: clamp(1.26rem, 1.1879rem + 0.3077vw, 1.4648rem);
+  /* step-2 */
+  --text-lg: clamp(1.512rem, 1.3997rem + 0.4793vw, 1.8311rem);
+  /* step-3 */
+  --text-xl: clamp(1.8144rem, 1.6474rem + 0.7127vw, 2.2888rem);
+  /* step-4 */
+  --heading: clamp(2.1773rem, 1.9365rem + 1.0272vw, 2.861rem);
+  /* step-5 */
+  --display: clamp(2.6127rem, 2.2735rem + 1.4476vw, 3.5763rem);
+  /* step-6 */
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {}
