@@ -1,0 +1,83 @@
+.features {
+    margin: 56px 24px 24px 24px;
+    max-width: fit-content;
+}
+
+.features__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.features__title {
+    display: flex;
+    font-size: var(--text-lg);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.features__title--light {
+    font-weight: 200;
+    color: var(--grey-400);
+}
+
+.features__title--bold {
+    font-weight: 600;
+    color: var(--grey-500);
+}
+
+.features__description {
+    font-weight: 400;
+    color: var(--grey-400);
+    text-align: center;
+}
+
+.features__card {
+    background-color: var(--white);
+    height: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.features__card-title {
+    padding: 24px;
+    color: var(--grey-500);
+}
+
+.features__card-text {
+    padding: 24px;
+}
+
+.features__card--supervisor {
+    border-top: solid 4px var(--cyan);
+}
+
+.features__card--team-builder {
+    border-top: solid 4px var(--red);
+}
+
+.features__card--karma {
+    border-top: solid 4px var(--orange);
+}
+
+.features__card--calculator {
+    border-top: solid 4px var(--blue);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 576px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {}

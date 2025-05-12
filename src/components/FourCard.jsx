@@ -5,7 +5,7 @@ function FourCard() {
         <section className="features">
             <header className="features__header">
                 <h1 className="features__title">
-                    <span className="features__title--light">Reliable, efficient delivery</span><br />
+                    <span className="features__title--light">Reliable, efficient delivery</span>
                     <span className="features__title--bold">Powered by Technology</span>
                 </h1>
                 <p className="features__description">
