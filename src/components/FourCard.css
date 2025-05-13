@@ -34,21 +34,40 @@
     text-align: center;
 }
 
+.features__cards {
+    margin-top: 36px;
+}
+
 .features__card {
     background-color: var(--white);
     height: 200px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border-radius: 8px;
     margin-bottom: 24px;
+    position: relative;
+    padding-bottom: 2rem;
 }
 
 .features__card-title {
-    padding: 24px;
+    padding: 24px 24px 0 24px;
     color: var(--grey-500);
+    font-size: var(--text-base);
+    margin: 0;
 }
 
 .features__card-text {
-    padding: 24px;
+    padding: 12px 24px 24px 24px;
+    font-size: var(--text-xs);
+    color: var(--grey-400);
+    margin: 0;
+}
+
+.features__card-icon {
+    position: absolute;
+    width: auto;
+    height: auto;
+    bottom: 2.5rem;
+    right: 2.5rem;
 }
 
 .features__card--supervisor {
@@ -65,6 +84,10 @@
 
 .features__card--calculator {
     border-top: solid 4px var(--blue);
+}
+
+.features__cards .features__card:last-child {
+    margin-bottom: 56px;
 }
 
 /* Extra small devices (phones, 600px and down) */

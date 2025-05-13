@@ -1,4 +1,8 @@
-import './FourCard.css'
+import './FourCard.css';
+import iconSupervisor from '../assets/icon-supervisor.svg';
+import iconTeam from '../assets/icon-team-builder.svg';
+import iconKarma from '../assets/icon-karma.svg';
+import iconCalculator from '../assets/icon-calculator.svg';
 
 function FourCard() {
     return (
@@ -20,6 +24,7 @@ function FourCard() {
                     <p className="features__card-text">
                         Monitors activity to identify project roadblocks
                     </p>
+                    <img className='features__card-icon' src={iconSupervisor} alt="Supervisor icon" />
                 </div>
 
                 <div className="features__card features__card--team-builder">
@@ -27,6 +32,7 @@ function FourCard() {
                     <p className="features__card-text">
                         Scans our talent network to create the optimal team for your project
                     </p>
+                    <img className='features__card-icon' src={iconTeam} alt="Team builder icon" />
                 </div>
 
                 <div className="features__card features__card--karma">
@@ -34,6 +40,7 @@ function FourCard() {
                     <p className="features__card-text">
                         Regularly evaluates our talent to ensure quality
                     </p>
+                    <img className='features__card-icon' src={iconKarma} alt="Karma icon" />
                 </div>
 
                 <div className="features__card features__card--calculator">
@@ -41,6 +48,7 @@ function FourCard() {
                     <p className="features__card-text">
                         Uses data from past projects to provide better delivery estimates
                     </p>
+                    <img className='features__card-icon' src={iconCalculator} alt="Calculator icon" />
                 </div>
             </div>
         </section>
