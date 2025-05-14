@@ -19,7 +19,7 @@ A sleek and responsive four-card feature section. Highlights four key features w
 
 ### Screenshot
 
-
+![fourcardshots](https://github.com/user-attachments/assets/b2f74799-83b4-400c-afb3-581e171d7990)
 
 ### Links
 
